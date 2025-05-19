@@ -1,0 +1,39 @@
+.container{
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+}
+input{
+    font-size: 18px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 10px;
+}
+input:focus{
+    outline: none;
+}
+select{
+    font-size: 18px;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn-save{
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 10px;
+    background: green;
+}
+.btn-save:disabled{
+    background: gray;
+}
